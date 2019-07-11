@@ -25,7 +25,7 @@ define("plugins/kaliniArtSnip/__static__",[], function(require, exports, module)
                 {
                     "type": "snippets",
                     "filename": "php.snippets",
-                    "data": "# scope: php\nguard \\b\ntrigger for\nendGuard\nendTrigger\t"
+                    "data": "# scope: php\nsnippet prr\n\techo \"<pre>\";"
                 }
             ].forEach(function(x) {
                 debug.addStaticPlugin(x.type, "kaliniArtSnip", x.filename, x.data, plugin);
